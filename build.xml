@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="lab01-robot" basedir="." >
+	
+	<target name="clean-svn" description="Deletes Subversion directories">
+		<defaultexcludes remove="**/.svn"/>
+		<defaultexcludes remove="**/.svn/**"/>
+		<delete includeemptydirs="true">
+			<fileset dir=".">
+				<include name="**/.svn/**"/>
+			</fileset>
+		</delete>
+		<defaultexcludes default="true"/>
+	</target>
+	
+	<target name="submit" description="Create a ZIP file ready for submission">
+		<delete dir="target/submit" failonerror="false"/>
+		<mkdir dir="target/submit"/>
+		<copy todir="target/submit">
+			<fileset dir="." includes="**/*"
+				excludes="target/**,bin/**,.*,**/*.jar,**/*.zip,**/*.log">
+			</fileset>
+		</copy>
+		<zip destfile="target/lab01-robot.zip">
+			<fileset dir="target/submit"/>
+		</zip>
+	</target>
+</project>
