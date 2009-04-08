@@ -47,11 +47,17 @@ public class TransformPropertyFile {
 	
 	
 	public static void main(String[] args) throws Exception {
-		FileInputStream fis = new FileInputStream("src/main/resources/ApplicationResources_ltg.properties");
+		if (args.length < 2) {
+			System.err.println("Usage: java lv.ante.vuordneica.util.TransformPropertyFile oldfile newfile");
+			System.exit(0);
+		}
+//		FileInputStream fis = new FileInputStream("src/main/resources/ApplicationResources_ltg.properties");
+		FileInputStream fis = new FileInputStream(args[0]);
 		InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
 		BufferedReader br = new BufferedReader(isr);
 		
-		FileOutputStream fos = new FileOutputStream("src/main/resources/ApplicationResources_lv.properties");
+//		FileOutputStream fos = new FileOutputStream("src/main/resources/ApplicationResources_lv.properties");
+		FileOutputStream fos = new FileOutputStream(args[1]);
 		OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
 		BufferedWriter bw = new BufferedWriter(osw);
 		

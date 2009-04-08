@@ -15,10 +15,12 @@
 
 	<target name="encode-properties" description="Replace non-ASCII characters with Unicode escapes">
 		<java classname="lv.ante.vuordneica.util.TransformPropertyFile">
+			<arg value="src/main/resources/ApplicationResources_ltg.txt"/>
+			<arg value="src/main/resources/ApplicationResources_lv.properties"/>
 			<classpath>
 				<pathelement path="target/classes" />
 			</classpath>
-		</java>
+		</java>	
 	</target>
 
 
