@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project name="lab01-robot" basedir="." >
-	
+<project name="vuordneica" basedir=".">
+
 	<target name="clean-svn" description="Deletes Subversion directories">
-		<defaultexcludes remove="**/.svn"/>
-		<defaultexcludes remove="**/.svn/**"/>
+		<defaultexcludes remove="**/.svn" />
+		<defaultexcludes remove="**/.svn/**" />
 		<delete includeemptydirs="true">
 			<fileset dir=".">
-				<include name="**/.svn/**"/>
+				<include name="**/.svn/**" />
 			</fileset>
 		</delete>
-		<defaultexcludes default="true"/>
+		<defaultexcludes default="true" />
 	</target>
-	
-	<target name="submit" description="Create a ZIP file ready for submission">
-		<delete dir="target/submit" failonerror="false"/>
-		<mkdir dir="target/submit"/>
-		<copy todir="target/submit">
-			<fileset dir="." includes="**/*"
-				excludes="target/**,bin/**,.*,**/*.jar,**/*.zip,**/*.log">
-			</fileset>
-		</copy>
-		<zip destfile="target/lab01-robot.zip">
-			<fileset dir="target/submit"/>
-		</zip>
+
+
+	<target name="encode-properties" description="Replace non-ASCII characters with Unicode escapes">
+		<java classname="lv.ante.vuordneica.util.TransformPropertyFile">
+			<classpath>
+				<pathelement path="target/classes" />
+			</classpath>
+		</java>
+	</target>
+
+
+	<target name="localize" description="Create a localized version of JAR file xwiki-core.jar for upload" depends="encode-properties">
+		<delete dir="target/xwiki-core" failonerror="false" />
+		<mkdir dir="target/xwiki-core" />
+		<unzip src="${basedir}/xwiki-core-1.8.jar.bak" dest="target/xwiki-core" />
+		<copy file="src/main/resources/ApplicationResources_lv.properties" todir="target/xwiki-core"/>
+		<delete file="xwiki-core-1.8.jar"/>
+		<zip destfile="xwiki-core-1.8.jar">
+			<fileset dir="target/xwiki-core"/>
+		</zip>		
 	</target>
 </project>
