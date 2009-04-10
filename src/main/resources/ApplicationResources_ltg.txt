@@ -1,3 +1,8 @@
+#
+# XWiki Core localization
+#
+
+# Languages
 language=Volūda
 languages=Volūdys
 chinese=Kīnīšu
@@ -13,6 +18,7 @@ spanish=Spānīšu
 firstname=Vuords
 lastname=Pavuorde
 country=Vaļsts
+
 # View/Editing
 wikiweb=Apgabaļs
 wikiname=Lopa
@@ -38,6 +44,7 @@ webprefs=Apgabala īstatejumi
 xwikiprefs=Globalī īstatejumi
 attach=Dalikt
 attachments=Dalikumi
+webdaveditattachment=Lobuot
 save=Globuot
 delete=Iztreit
 preview=Pyrmsskots
@@ -157,6 +164,7 @@ presentation=Prezentaceja
 registration=Registraceja
 multilingual=Daudzvolūdu
 default_language=Nūklusātuo volūda
+dateformat=Datu formats
 authenticate_view=Naļaunit neregistrātim lītuotuojim viertīs lopys, naatkareigi nu lopu ci apgabalu tīseibom
 authenticate_edit=Naļaunit neregistrātim lītuotuojim lobuot lopys, naatkareigi nu lopu ci apgabalu tīseibom
 baseskin=Pamata uoda
@@ -203,10 +211,10 @@ nosuchobject=Nūruodeitais objekts naeksistej
 thispagealreadyexists=Taids dokuments jau eksistej.
 availableversionsattachment=Pīejamuos versejis dokumentam '$attachment.filename' irā:
 attachmentdoesnotexist=Dalikums naeksistej.
-wikicontentcannotbeempty= Viki lopys turīņs navar byut piļneigi tukšs.
+wikicontentcannotbeempty=Viki lopys turīņs navar byut piļneigi tukšs.
 fileuploadislarge=XWiki irā nūklusātuo rūbeža - 10Mb failu dalikumim. Tū rūbežu var puormeit ar upload_maxsize parametru. Skaitit FAQ, kur raksteits vairuok.
 javaheapspace=Java Heap Space Out Of Memory Exception !
-notsupportcharacters=Faila vuordā navar byut literi '\\' '/' ';'
+notsupportcharacters=Faila vuordā navar byut literi '\' '/' ';'
 thistemplatedoesnotexist=Taida šablona nav
 macros_languages=Makro volūdys
 macros_velocity=Velocity makro-lopys
@@ -217,157 +225,11 @@ documentBundles=Internacionalizacejis Dokumentu Teisti
 auth_active_check=Paraudzeit aktivūs laukus deļ lītuotuoju autentifikacejis
 advanced=Izvārsts
 errornotdefine=Klaida nanūstateita īkš XWikiException !
-propertynamenotcorrect=Soveibu vuordus nūsoka taidys pīzemis : \
-  <br/>Vuordi var saturēt lelus i mozus literus, skaitļus, i taidus simbolus: "., -, _, :" \
-  <br/>Vuordi navar suoktīs ar skaitli voi pīturzeimi. \
-  <br/>Vuordi navar suoktīs ar "xml" (ci "XML", "Xml", i.t.t.). \
-  <br/>Vuordūs navar byut tukšumi
-
-chartwizard=Chart Wizard
-chwhide=hide
-chwshow=show
-chwdatasourcelegend=Chart data source
-chwdatasourcetitle=Click to hide the chart data source option
-chwdatadefinelegend=Define new data source
-chwdatadefinetypelable=Type:
-chwdatadefinetypetitle=Select one of the available types of data sources
-chwsourcedefined=Data source defined. Press Next to continue.
-chwdatatypetabletitle=Use a table defined in one of the XWiki pages
-chwdatatypetable=XWiki Table
-chwdatatypetablepagetitle=Insert the name of an existing XWiki page
-chwdatatypetablepagelabel=Table number:
-chwinvoketablewizardtitle=Open the table data source creation wizard. Your browser must allow the opening of a new window
-chwinvoketablewizard=Data&nbsp;source&nbsp;wizard&nbsp;&gt;&gt;
-chwdatareuselegend=Use an already defined data source
-chwdataorientationtitle=Click to hide the data orientation options
-chwdataorientationlegend=Data orientation
-chwdataorientationlabel=Data series on:
-chwdataorientationrows=Rows
-chwdataorientationcolumns=Column
-
-chwdcharttypetitle=Click to hide the chart type options
-chwcharttypelegend=Chart type
-chwcharttypelabel=Chart type:
-chwchartsubtypelabel=Chart subtype:
-
-chwcharttitle=Chart title
-chwcharttitlelegend=Chart title
-chwchartsubtitle=Chart subtitle
-chwchartsubtitlelegend=Chart subtitle
-chwtitleoptionstitle=Click to hide the chart title options
-chwtitlepositiontitle=Click to show the positioning properties of the chart title
-chwtitlefonttitle=Click to show the font properties of the chart title
-chwtitlecolortitle=Click to show the color properties of the chart title
-chwtitlepaddingtitle=Click to show the padding properties of the chart title
-chwsubtitleoptionstitle=Click to show the chart subtitle options
-chwsubtitlepositiontitle=Click to show the positioning properties of the chart subtitle
-chwsubtitlefonttitle=Click to show the font properties of the chart subtitle
-chwsubtitlecolortitle=Click to show the color properties of the chart subtitle
-chwsubtitlepaddingtitle=Click to show the padding properties of the chart subtitle
-
-chwcharttitleinputtitle=This text will appear as the title of the chart
-chwchartsubtitleinputtitle=This text will appear as the subtitle of the chart
-chwlabellabel=Label:
-chwpositioninglegend=Positioning
-chwtitleplacementlabel=Title placement:
-chwsubtitleplacementlabel=Subtitle placement:
-chwalignmentlabel=Text alignment:
-chwfontlegend=Font
-chwfontfamilylabel=Family:
-chwfontfamilytitle=Font family for the text
-chwfontstylelabel=Style:
-chwfontstyletitle=Font style for the text
-chwplain=Normal
-chwbold=Bold
-chwitalic=Italic
-chwbolditalic=Bold Italic
-chwfontsizelabel=Size:
-chwfontsizetitle=Font size for the text
-chwcolorlegend=Color
-chwforecolorlabel=Foreground color:
-chwtitleforecolortitle=Font color for the title's text
-chwsubtitleforecolortitle=Font color for the subtitle's text
-chwbackcolorlabel=Background color:
-chwtitlebackcolortitle=Background color for the title's text
-chwsubtitlebackcolortitle=Background color for the subtitle's text
-chwtrasparentforetitle=Don't use foreground color
-chwtrasparentbacktitle=Don't use background color
-chwinvokecolorpicker=Color&nbsp;picker&nbsp;&gt;&gt;
-chwinvokecolorpickertitle=Use the color picker tool to choose a custom color
-chwcolorpickertitletxt=Color picker
-chwtransparent=Transparent
-chwblack=Black
-chwwhite=White
-chwsilver=Silver
-chwgray=Gray
-chwmaroon=Maroon
-chwred=Red
-chwpurple=Purple
-chwfuchsia=Fuchsia
-chwgreen=Green
-chwlime=Lime
-chwolive=Olive
-chworange=Orange
-chwyellow=Yellow
-chwnavy=Navy
-chwblue=Blue
-chwteal=Teal
-chwaqua=Aqua
-chwcustomoption=Custom...
-chwcustomcolortitle=Custom color (range: #000000 - #FFFFFF)
-chwpaddinglegend=Padding
-chwpaddingleft=Left padding
-chwpaddingright=Right padding
-chwpaddingtop=Top padding
-chwpaddingbottom=Bottom padding
-chwleft=Left
-chwtop=Top
-chwright=Right
-chwbottom=Bottom
-chwcenter=Center
-
-chwimgdata=Data source
-chwimgtype=Chart type
-chwimgtitle=Title and subtitle
-chwimgaxes=Axes
-chwimglabel=Labels
-chwimggrid=Gridlines
-chwimglegend=Legend
-chwimgspacing=Spacing
-chwimgcolors=Colors
-chwimginsert=Insertion Point
-
-tdwimgdoc=XWiki Document
-tdwimgrange=Table and Range
-tdwimgextra=Additional options
-tdwdoclegend=XWiki Document selection
-tdwdocselectlabel=Please select from the list below the document containing the data to be used for the chart.
-tdwrangelegend=Table and range selection
-tdwextralegend=Additional options
-tdwheaderslegend=Data headers
-tdwnonamedata=You didn't enter a name for the data source. Are you sure you want to save it without a name?
-tdwrowheader=First row as header
-tdwcolumnheader=First column as header
-tdwformatlegend=Data format
-tdwignorealpha=Ignore non digits in table cells
-tdwdecimalsymbol=Use comma (,) as a decimal symbol instead of period (.)
-tdwcomma=Comma
-tdwperiod=Period
-tdwsavelegend=Data source saving
-tdwsavesource=Save data source definition in order to reuse it.
-tdwsavename=Data source name:
-tdwwaitingmsg=Please wait...
-tdwrequesterrormsg=Error requesting page.
-tdwnotablesmsg=No tables found in document <span id="tdwNoTablePageName">&nbsp;</span>. Please select another one.
-tdwslectrangemsg=Please select the data to be used. You can select a whole table, a series of columns, rows, or a rectangular region of cells.
-tdwcanceltitle=Cancel the data source creation process and return to the chart page
-tdwcancel=Cancel
-tdwbacktitle=Go to previous wizard page
-tdwback=Back
-tdwnexttilte=Go to next wizard page
-tdwnext=Next
-tdwfinishtitle=Use the defined data source in the chart and close this wizard
-tdwfinish=Finish
+# propertynamenotcorrect=Property names must follow these naming rules : \
+#  <br/>Names can contain letters, numbers, and the following characters : "., -, _, :" \
+#  <br/>Names must not start with a number or punctuation character. \
+#  <br/>Names must not start with the letters xml (or XML, or Xml, etc). \
+#  <br/>Names cannot contain spaces.
 
 backtoedit=Back To Edit
 browsernoncompatible=Browser is non compatible !
@@ -475,7 +337,7 @@ hidelinenumbers=Hide Line numbers
 print=Print
 wiki=Wiki
 WYSIWYG=WYSIWYG
-invitation_email_content=Invitation eMail Content
+invitation_email_content=Invitation email Content
 parentfield=Parent
 
 editingClass=Editing class
@@ -495,36 +357,6 @@ editClass=Class
 editRights=Access Rights
 editHistory=History
 editFullScreen=Full Screen
-
-#Administration
-admin.globaladmin=Wiki Preferences
-admin.spaceadmin=Space Preferences
-admin.gotoglobaladministration=Edit Wiki preferences:
-admin.globaladministration=Wiki administration
-admin.gotospaceadministration=Edit space preferences: 
-admin.showsections=Show the available categories
-admin.hidesections=Hide the available categories
-admin.general=General
-admin.presentation=Presentation
-admin.registration=Registration
-admin.programming=Programming
-admin.rights=Rights
-admin.authentification=Authentification
-admin.users=Users
-admin.groups=Groups
-admin.import=Import
-admin.export=Export
-admin.language=Language
-admin.editor=Editor
-admin.admin=Administrator
-admin.server=Server
-admin.header=Header
-admin.footer=Footer
-admin.skin=Skin
-admin.customize=Customize
-admin.save=Save
-admin.defaultwikinotinstalled=Your wiki seems empty. You may want to import the default XWiki Enterprise wiki which contains a set of useful pages : user profiles, recent changes, administration pages and many more. This wiki is distributed as a XAR file, you can download it from {0}.
-admin.adminappnotinstalled=The administration application is not installed. Since XWiki Enterprise 1.5 the Administration is distributed as an application. You can download it from {0}.
 
 #login
 nousername=No user name given
@@ -632,7 +464,7 @@ userdeletioncannotbecanceled=Deletions cannot be cancelled.
 addusertogroup=Add a user to this group
 
 panelsavesuccess=The layout has been saved properly.
-panelsaveerror=An error occured while trying to save the panel layout.
+panelsaveerror=An error occurred while trying to save the panel layout.
 spaceandname=Space and Page Name
 create=Create
 createpage=Page
@@ -732,6 +564,7 @@ core.rename.submit=Rename
 core.rename.success=Successfully renamed {0} to <a href="{2}">{1}</a>
 core.rename.emptyName=Please enter a valid page name!
 core.rename.alreadyExists=A document with the given name (<a href="{1}">{0}</a>) already exists. Please provide a different name.
+core.rename.targetNotWritable=You don't have the right to create the target document.
 rename=Rename
 
 # Copy
@@ -807,6 +640,7 @@ core.menu.print.rtf=RTF
 core.menu.print.preview=Prīkšskots
 core.menu.delete=Iztreit
 core.menu.rename=Puorsaukt
+core.menu.import=Importēt biroja dokumentu
 core.menu.actions=Darbeibys
 core.menu.preview=Drukavuošonys prīkšskots
 core.menu.export.pdf=PDF eksports
@@ -874,8 +708,6 @@ core.versions.delete.confirm.single=Darbeiba irā naatsagrīžama. Voi gribit iz
 core.versions.delete.confirm.many=Darbeiba irā naatsagrīžama. Voi gribit iztreit versejis nu {0} leidz {1} īskaitūt? 
 core.versions.delete.needselect=Izlasit "nu" i "leidz" versejis kū iztreit
 core.versions.delete.goback=atsagrīzt
-
-core.tagedit.title=Tagi:
 
 panels.documentInformation.title=Dokumenta dazynuošona
 panels.documentInformation.parent=Dzymdynuotuojs:
@@ -996,6 +828,20 @@ changes.noobjectchanges=Objektu puormeju nav
 changes.classeschanges=Klašu puormejis
 changes.noclasseschanges=Klašu puormeju nav.
 
+#
+# Plugins
+#
+
+# Tag plugin
+plugin.tag.editcomment.renamed=Puorsauca tagu [{0}] iz [{1}]
+plugin.tag.editcomment.added=Dalyka tagu [{0}]
+plugin.tag.editcomment.removed=Iztryna tagu [{0}]
+
+#
+# Applications
+#
+
+# Rights manager (XWiki Enterprise wiki)
 rightsmanager.confirmdeleteuser=Lītuotuojs __name__ byus iztreits i izmasts nu vysu sovu grupu. Voi asat drūši, ka gribit tū dareit?
 rightsmanager.confirmdeletegroup=Grupa __name__ byus izmasta. Voi asat drūši, ka gribit tū dareit? 
 rightsmanager.confirmdeletemember=Itys lītuotuojs byus izmasts nu grupys. Voi asat drūši, ka gribit tū dareit?
@@ -1046,6 +892,8 @@ platform.core.rightsManagement.ajaxFailure=Sasazynojūt ar serveru atsatika klai
 platform.core.rightsManagement.saveFailure=Globojūt pādējuos puormainis atsagadēja izjāmums. Lyudzu apsaverit, voi Jums irā tīseibys dareit tūs puormainis.
 platform.core.rightsManagement.saveComment={0} {1} tīseibys prīkš {2}
 
+platform.core.rendering.error.readTechnicalInfomation=Skaiteit tehniskū dazynuošonu ap itū klaidu
+
 platform.core.errorMessageType=Klaida
 platform.core.noticeMessageType=Pīzeime
 platform.core.warningMessageType=Breidynuojums
@@ -1054,11 +902,176 @@ platform.core.action.objectRemove.noClassnameSpecified=Navā nūruodeits objekta
 platform.core.action.objectRemove.noObjectSpecified=Nava nūruodeits objekts
 platform.core.action.objectRemove.invalidObject=Nadereigs objekts
 
-tags.save=Globuot
-tags.save.success=Tagi laimeigai izglobuoti
-tags.save.error=Klaida, globuojūt tagus
+# Chart Wizard application
+chartwizard=Diagramu vadyns
+chwhide=aizglobuot
+chwshow=ruodeit
+chwdatasourcelegend=Diagramys datu olūts
+chwdatasourcetitle=Mīgt, kab naruodeitu diagramys datu olūtu
+chwdatadefinelegend=Definēt jaunu datu olūtu
+chwdatadefinetypelable=Tips:
+chwdatadefinetypetitle=Izavēlēt vīnu nu datu olūtu tipim 
+chwsourcedefined=Datu olūts definēts. Mīgt iz "Next", lai tuoļuotu.
+chwdatatypetabletitle=Lītuot tabeli definētu vīnā nu XWiki lopom
+chwdatatypetable=XWiki tabele
+chwdatatypetablepagetitle=Insert the name of an existing XWiki page
+chwdatatypetablepagelabel=Tabelis numurs:
+chwinvoketablewizardtitle=Atdareit tabelis datu olūta radeišonys vadynu. Jyusu puorvieriejam vajag dalaist jaunu lūgu atdareišonu.
+chwinvoketablewizard=Datu&nbsp;olūta&nbsp;vadyns&nbsp;&gt;&gt;
+chwdatareuselegend=Lītuot jau definētu datu olūtu 
+chwdataorientationtitle=Mīgt, kab naruodeitu datu orientacejis vareibys
+chwdataorientationlegend=Datu orientaceja
+chwdataorientationlabel=Datu parāds ap:
+chwdataorientationrows=Ailis
+chwdataorientationcolumns=Stuļpeņš
 
+chwdcharttypetitle=Mīgt, kab aizglobuotu diagramys tipa parametrus
+chwcharttypelegend=Diagramys tips
+chwcharttypelabel=Diagramys tips:
+chwchartsubtypelabel=Diagramys zamtyps:
+
+chwcharttitle=Diagramys pasauka
+chwcharttitlelegend=Diagramys pasauka
+chwchartsubtitle=Diagramys zampasauka
+chwchartsubtitlelegend=Diagramys zampasauka
+chwtitleoptionstitle=Mīgt, kab aizglobuotu diagramys pasaukas opcejis
+chwtitlepositiontitle=Mīgt, kab ruodeitu diagramys pasaukys pastatejumu
+chwtitlefonttitle=Mīgt, kab ruodeitu diagramys pasaukys fontu
+chwtitlecolortitle=Mīgt, kab ruodeitu diagramys pasaukys kruosu soveibys
+chwtitlepaddingtitle=Mīgt, kab ruodeitu diagramys pasaukys polstera soveibys
+chwsubtitleoptionstitle=Mīgt, kab ruodeitu diagramys zampasaukys soveibys
+chwsubtitlepositiontitle=Mīgt, kab ruodeitu diagramys zampasaukys pastatejumu
+chwsubtitlefonttitle=Mīgt, kab ruodeitu diagramys zampasaukys fontu
+chwsubtitlecolortitle=Mīgt, kab ruodeitu diagramys zampasaukys kruosu soveibys
+chwsubtitlepaddingtitle=Mīgt, kab ruodeitu diagramys zampasaukys polstera soveibys
+
+chwcharttitleinputtitle=Itys teksts pasaruodeis kai diagramys pasauka
+chwchartsubtitleinputtitle=Itys teksts pasaruodeis kai diagramys zampasauka
+chwlabellabel=Pīzeime:
+chwpositioninglegend=Pastateišona
+chwtitleplacementlabel=Pasaukys pastateišona:
+chwsubtitleplacementlabel=Zampasaukys pastateišona:
+chwalignmentlabel=Teksta leidzynuojums:
+chwfontlegend=Fonts
+chwfontfamilylabel=Saime:
+chwfontfamilytitle=Fontu saime tekstam
+chwfontstylelabel=Stiļs:
+chwfontstyletitle=Fonta stiļs tekstam
+chwplain=Normals
+chwbold=Aptucs
+chwitalic=Sleips
+chwbolditalic=Aptucs sleips
+chwfontsizelabel=Lelums:
+chwfontsizetitle=Fonta lelums tekstā
+chwcolorlegend=Kruosa
+chwforecolorlabel=Prīškysplana kruosa:
+chwtitleforecolortitle=Fonta kruosa pasaukys tekstam
+chwsubtitleforecolortitle=Fonta kruosa zampasaukys tekstam
+chwbackcolorlabel=Fona kruosa:
+chwtitlebackcolortitle=Fona kruosa pasaukys tekstam
+chwsubtitlebackcolortitle=Fona kruosa zampasaukys tekstam
+chwtrasparentforetitle=Nalītuot prīkškysplana kruosu 
+chwtrasparentbacktitle=Nalītuot fona kruosu
+chwinvokecolorpicker=Kruosu&nbsp;izalaseituojs&nbsp;&gt;&gt;
+chwinvokecolorpickertitle=Lītuot kruosu atradieju, kab izavēlētu sovpateigu kruosu
+chwcolorpickertitletxt=Kruosu izalaseišona
+chwtransparent=Caurspeideigs
+chwblack=Malns
+chwwhite=Bolts
+chwsilver=Sudobra
+chwgray=Palāks
+chwmaroon=Tumši sorkons
+chwred=Sorkons
+chwpurple=Lilleigs
+chwfuchsia=Fuchsia
+chwgreen=Zaļš
+chwlime=Soluotu zaļš
+chwolive=Oleivu zaļš
+chworange=Oranžs
+chwyellow=Dzaltons
+chwnavy=Jyurys zyls
+chwblue=Zyls
+chwteal=Zyli-zaļš
+chwaqua=Dabasu zyls
+chwcustomoption=Sovpateigs...
+chwcustomcolortitle=Specialuo kruosa (nu-leidz: #000000 - #FFFFFF)
+chwpaddinglegend=Polsteri
+chwpaddingleft=Kreisais polsters
+chwpaddingright=Lobais polsters
+chwpaddingtop=Viersys polsters
+chwpaddingbottom=Zamoškys polsters
+chwleft=Kreisā mola
+chwtop=Viersa
+chwright=Lobā mola
+chwbottom=Zamoška
+chwcenter=Centrs
+
+chwimgdata=Datu olūts
+chwimgtype=Diagramys tips
+chwimgtitle=Pasauka i zampasauka
+chwimgaxes=Asis
+chwimglabel=Īzeimis
+chwimggrid=Režga linejis
+chwimglegend=Legenda
+chwimgspacing=Boltuos molys
+chwimgcolors=Kruosys
+chwimginsert=Īstateišonys punkts
+
+tdwimgdoc=XWiki Document
+tdwimgrange=Table and Range
+tdwimgextra=Additional options
+tdwdoclegend=XWiki Document selection
+tdwdocselectlabel=Please select from the list below the document containing the data to be used for the chart.
+tdwrangelegend=Table and range selection
+tdwextralegend=Additional options
+tdwheaderslegend=Data headers
+tdwnonamedata=You didn't enter a name for the data source. Are you sure you want to save it without a name?
+tdwrowheader=First row as header
+tdwcolumnheader=First column as header
+tdwformatlegend=Data format
+tdwignorealpha=Ignore non digits in table cells
+tdwdecimalsymbol=Use comma (,) as a decimal symbol instead of period (.)
+tdwcomma=Comma
+tdwperiod=Period
+tdwsavelegend=Data source saving
+tdwsavesource=Save data source definition in order to reuse it.
+tdwsavename=Data source name:
+tdwwaitingmsg=Please wait...
+tdwrequesterrormsg=Error requesting page.
+tdwnotablesmsg=No tables found in document <span id="tdwNoTablePageName">&nbsp;</span>. Please select another one.
+tdwslectrangemsg=Please select the data to be used. You can select a whole table, a series of columns, rows, or a rectangular region of cells.
+tdwcanceltitle=Cancel the data source creation process and return to the chart page
+tdwcancel=Cancel
+tdwbacktitle=Go to previous wizard page
+tdwback=Back
+tdwnexttilte=Go to next wizard page
+tdwnext=Next
+tdwfinishtitle=Use the defined data source in the chart and close this wizard
+tdwfinish=Finish
+
+# XWikiExplorer JS Widget
+xwikiexplorer.addpage.title=New page...
+xwikiexplorer.attachments.title=Attachments
+xwikiexplorer.addattachment.title=Upload file...
+
+
+# Tag application
+xe.tag.tags=Tags
+xe.tag.notags=No document has been tagged yet. Documents can be tagged from the information section (footer) or from the Document information panel available in edit mode. For more information on tagging please refer to the <a href="http://www.xwiki.org/xwiki/bin/view/UserGuide/">User Guide</a>.
+xe.tag.tooltip={0} documents
+xe.tag.alldocs=All documents <span>Tagged with {0}</span>
+xe.tag.recentchanges=Recent changes <span>In documents tagged with {0}</span>
+xe.tag.rename=Rename
+xe.tag.rename.success=Tag {0} has been successfully renamed.
+xe.tag.rename.failure=Renaming of tag {0} to {1} failed.
+xe.tag.rename.renameto=Rename {0} to : 
+xe.tag.delete=Delete tag {0}
+xe.tag.delete.success=Tag {0} has been successfully deleted.
+xe.tag.delete.failure=Deletion of tag {0} failed.
+
+# Page footer
 docextra.comments=Komentari
+docextra.children=Children
 docextra.attachments=Dalikumi
 docextra.history=Viesture
 docextra.information=Dazynuošona
@@ -1067,3 +1080,736 @@ docextra.parent=Dzymdynuotuojs:
 docextra.backlinks={0} nūruodis iz itīni:
 docextra.creation=Radeits:
 docextra.createdby=kas: {0}, kod: {1}
+docextra.includedpages=Included pages
+core.tagedit.title=Tagi:
+tags.save=Globuot
+tags.save.success=Tagi laimeigai izglobuoti
+tags.save.error=Klaida, globuojūt tagus
+
+# Wiki and space dashboard (XWiki Enterprise wiki)
+xe.dashboard.wiki=Dashboard
+xe.dashboard.wiki.spaces=Spaces
+xe.dashboard.wiki.tagcloud=Tags
+xe.dashboard.wiki.recentchanges=Recent Changes
+xe.dashboard.space=Dashboard for space {0}
+xe.dashboard.space.recentchanges=Recent Changes for space {0}
+xe.dashboard.space.documents=Documents in space {0}
+
+# Spaces (XWiki Enterprise wiki)
+xe.spaces.createspace=Create a new space
+xe.spaces.createspace.defaultname=Space name
+xe.spaces.createspace.submit=Create
+xe.spaces.action.index=See space index
+xe.spaces.action.admin=See space administration
+
+# Recent Changes (XWiki Enterprise wiki)
+xe.recentchanges=Recent Changes
+xe.recentchanges.showminor=Show minor edits
+xe.recentchanges.hideminor=Hide minor edits
+xe.recentchanges.rssfeed=RSS feed
+xe.recentchanges.column.authoranddate=Author and date
+xe.recentchanges.column.changes=Changes
+xe.recentchanges.entry.new=new!
+xe.recentchanges.entry.page.seemodifications=see modifications
+xe.recentchanges.entry.page.tooltip=Version {0}. Last modification {1}.
+xe.recentchanges.entry.comment.tooltip=Posted at {0}
+xe.recentchanges.entry.comment=comment 
+xe.recentchanges.entry.comment.show=show
+xe.recentchanges.entry.comment.hide=hide
+xe.recentchanges.entry.comment.seediscussion=See discussion
+
+# Administration application
+admin.globaladmin=Wiki Preferences
+admin.spaceadmin=Space Preferences
+admin.gotoglobaladministration=Edit Wiki preferences:
+admin.globaladministration=Wiki administration
+admin.gotospaceadministration=Edit space preferences: 
+admin.showsections=Show the available categories
+admin.hidesections=Hide the available categories
+admin.general=General
+admin.presentation=Presentation
+admin.registration=Registration
+admin.programming=Programming
+admin.rights=Rights
+admin.authentification=Authentification
+admin.users=Users
+admin.groups=Groups
+admin.import=Import
+admin.export=Export
+admin.language=Language
+admin.editor=Editor
+admin.admin=Administrator
+admin.server=Server
+admin.header=Header
+admin.footer=Footer
+admin.skin=Skin
+admin.customize=Customize
+admin.save=Save
+admin.defaultwikinotinstalled=Your wiki seems empty. You may want to import the default XWiki Enterprise wiki which contains a set of useful pages : user profiles, recent changes, administration pages and many more. This wiki is distributed as a XAR file, you can download it from {0}.
+admin.adminappnotinstalled=The administration application is not installed. Since XWiki Enterprise 1.5 the Administration is distributed as an application. You can download it from {0}.
+# Account validation
+xe.admin.accountvalidation.success=Your account has been activated. You can now <a href="{0}">login</a>.
+xe.admin.accountvalidation.failure=There was a problem validating your account. Please contact an administrator.
+# Group manangement
+xe.admin.groups.loading=Loading...
+xe.admin.groups.groupname=Group Name
+xe.admin.groups.members=Members
+xe.admin.groups.manage=Manage
+xe.admin.groups.local=Local
+xe.admin.groups.global=Global
+xe.admin.groups.both=Both
+xe.admin.groups.create=Create a new group
+xe.admin.groups.creategroup=Create group
+xe.admin.groups.currentgroups=Existing groups
+xe.admin.groups.administration=XWiki groups administration documents
+# User management
+xe.admin.users.loading=Loading...
+xe.admin.users=Users
+xe.admin.users.registernew=Register a new user
+xe.admin.users.existing=Existing user accounts
+xe.admin.users.administration=XWiki users administration documents
+xe.admin.users.sheet=User Sheet
+xe.admin.users.applyonusers=This stylesheet must be applied on a document containing a XWiki.XWikiUsers object.
+# Skin
+xe.admin.skin=Skin
+xe.admin.skin.makeyourown=You can modify the existing look and feel and even create your own.
+xe.admin.skin.editskin=Edit this skin
+xe.admin.skin.testskin=Test this skin
+# Password reset
+xe.admin.passwordreset.forgotusername=Forgot your username?
+xe.admin.passwordreset.enteremail=Please enter the email address you provided when creating your account.
+xe.admin.passwordreset.email=Email:
+xe.admin.passwordreset.retrieve=Retrieve username 
+xe.admin.passwordreset.noaccountregistered=No account is registered using this email address.
+xe.admin.passwordreset.differentaddress=Try again using another email address
+xe.admin.passwordreset.login=Login
+xe.admin.passwordreset.usernameis=Your username is:
+xe.admin.passwordreset.multipleusernames=The following usernames are registered with this email address:
+xe.admin.passwordreset.forgotpassword=Forgot your password?
+xe.admin.passwordreset.startprocess=Please enter your username to start the password recovery process.
+xe.admin.passwordreset.username=Username:
+xe.admin.passwordreset.resetpassword=Reset password
+xe.admin.passwordreset.nouser=The ~~{0}~~ user does not exist.
+xe.admin.passwordreset.ldapuser=The ~~{0}~~ user is an LDAP user. In that case the password has to be changed on the LDAP server.
+xe.admin.passwordreset.cannotreset=Cannot reset password: email address not provided in the user profile.
+xe.admin.passwordreset.emailsent=An e-mail was sent to <tt>{0}</tt>. Please follow the instructions in that e-mail to complete the password reset procedure.
+xe.admin.passwordreset.reseterror=An unknown problem occurred while sending the reset email.
+xe.admin.passwordreset.retry=Retry
+xe.admin.passwordreset.noprogrammingrights=This page requires programming rights to work, which currently isn't the case. Please notify an administrator of this problem and try again later.
+xe.admin.passwordreset.resetfor=Reset password for ~~{0}~~
+xe.admin.passwordreset.emptystring=The password cannot be an empty string.
+xe.admin.passwordreset.nomatch=The two passwords do not match.
+xe.admin.passwordreset.newpassword=New password:
+xe.admin.passwordreset.reenterpassword=Re-enter new password:
+xe.admin.passwordreset.save=Save
+xe.admin.passwordreset.notempty=The password cannot be empty.
+xe.admin.passwordreset.success=The password has been successfully set. Please
+xe.admin.passwordreset.loginsmall=login
+xe.admin.passwordreset.successend=to continue.
+xe.admin.passwordreset.wrongparameters=Wrong parameters.
+xe.admin.passwordreset.backtoreset=Back to the password reset page
+
+# Blog application
+xe.blog.archive.noarticle=No articles yet...
+xe.blog.archive.postsyear=Blog posts for {0}
+xe.blog.archive.unpublished=(unpublished)
+xe.blog.archive.hidden=(hidden)
+xe.blog.archive.noarticlesyear=No articles in this year...
+xe.blog.archive.postsfor=Blog posts for
+xe.blog.archive.noarticlesmonth=No articles in this month...
+xe.blog.code.blogsheet=Blog sheet
+xe.blog.code.sheetexplanation=This sheet should be used to display blog documents.
+xe.blog.code.notblog=This is not a blog document!
+xe.blog.code.published=This blog post is not published yet.
+xe.blog.code.hidden=This blog post is hidden.
+xe.blog.code.notpublished=This blog post is not published yet. Publish it.
+xe.blog.code.madevisible=Made%20entry%20visible
+xe.blog.code.hid=Hidden%20entry
+xe.blog.code.makevisible=This blog post is not visible to other users. Make it visible.
+xe.blog.code.hide=Hide this blog post from other users.
+xe.blog.code.editpost=Edit this blog post
+xe.blog.code.deletepost=Delete this blog post
+xe.blog.code.readpost=Read the full entry
+xe.blog.code.postedby=Posted by
+xe.blog.code.createdby=Created by
+xe.blog.code.modifiedby=Modified by
+xe.blog.code.comments=Comment(s)
+xe.blog.code.permalink=Permalink
+xe.blog.code.in=in
+xe.blog.code.previousweek=Previous week
+xe.blog.code.nextweek=Next week
+xe.blog.code.previousmonth=Previous month
+xe.blog.code.nextmonth=Next month
+xe.blog.code.olderposts=Older posts
+xe.blog.code.newerposts=Newer posts
+xe.blog.sheet.notpost=This is not a blog post!
+xe.blog.sheet.category=Category:
+xe.blog.sheet.summary=Summary (optional):
+xe.blog.sheet.content=Content:
+xe.blog.sheet.title=Title:
+xe.blog.sheet.publicationdate=This article was published on {0}
+xe.blog.sheet.hidearticle=Hide article {0}
+xe.blog.sheet.notpublished=This article is not published yet.
+xe.blog.sheet.publish=Publish
+xe.blog.sheet.setdate=Set the publication date to:
+xe.blog.category.created=The {0} category has been created.
+xe.blog.category.exists=The {0} category already exists.
+xe.blog.categories.name=Name:
+xe.blog.categories.parentcategory=Parent category:
+xe.blog.categories.description=Description:
+xe.blog.categories.add=Add
+xe.blog.categories.new=New category:
+xe.blog.categories.parent=Parent:
+xe.blog.categories.none=None
+xe.blog.categories.remove=Remove deleted category
+xe.blog.categories.edit=Edit Categories
+xe.blog.categories.subcategories=Subcategories
+xe.blog.categories.addsubcategory=Add new subcategory
+xe.blog.categories.articles=Articles from this category
+xe.blog.categories.sheet=Category sheet
+xe.blog.categories.sheetmessage=This sheet should be used to display blog categories.
+xe.blog.categories.notcategory=This is not a blog category!
+xe.blog.post.createpost=Create a new post
+xe.blog.post.title=Post title
+xe.blog.post.create=Create
+xe.blog.categories.manage=Manage blog categories
+xe.blog.categories.existingcategories=Existing categories
+xe.blog.categories.addcategory=Add a category
+xe.blog.categories.deleteselected=Delete selected categories
+xe.blog.manage.existing=Existing blogs
+xe.blog.manage.createnew=Create a new blog
+xe.blog.manage.nospace=No space provided. Please enter a valid space where the blog should be created.
+xe.blog.manage.space=Space:
+xe.blog.manage.title=Title:
+xe.blog.manage.blogtitle=Blog title
+xe.blog.manage.blogtype=Blog type:
+xe.blog.manage.inside=blog inside an existing space
+xe.blog.manage.main=blog as the main content of a space
+xe.blog.manage.create=Create
+xe.blog.migration.migrated=Migrated old blog article to the new blog application
+xe.blog.migration.updated=Updated
+xe.blog.migration.inspace=in space
+xe.blog.migration.skipping=Skipping protected document
+xe.blog.migration.done=Done.
+xe.blog.migration.backtoblog=Back to the blog
+xe.blog.migration.pleaseconfirm=Please confirm that you want to migrate old articles to the new blog application:
+xe.blog.migration.confirm=Confirm
+xe.blog.publisher.published=Published article
+xe.blog.unpublished.entries=Unpublished articles
+xe.blog.unpublished.viewall=View all
+
+# Office importer application
+xe.officeimporter.notallowed=Guests are not allowed to view the contents of this page.
+xe.officeimporter.import.title=Office Importer
+xe.officeimporter.import.document=Document
+xe.officeimporter.import.targetspace=Target space
+xe.officeimporter.import.targetpage=Target page
+xe.officeimporter.import.appendresult=Append result
+xe.officeimporter.import.styles=Styles
+xe.officeimporter.import.filterstyles=Filter styles
+xe.officeimporter.import.splitting=Splitting
+xe.officeimporter.import.splitting.splitdocument=Split document
+xe.officeimporter.import.splitting.headinglevels=Heading levels to split
+xe.officeimporter.import.splitting.heading=Heading
+xe.officeimporter.import.splitting.naming=Child pages naming method
+xe.officeimporter.import.splitting.naming.headingnames=Heading names
+xe.officeimporter.import.splitting.naming.mainpagenameandnumbering=Main page name and numbering 
+xe.officeimporter.import.import=Import
+xe.officeimporter.results.title=Office Importer
+xe.officeimporter.results.goback=Go back
+xe.officeimporter.results.missingfile=Missing input file. Please {0} and correct it.
+xe.officeimporter.results.missingspace=Missing target space name. Please {0} and correct it.
+xe.officeimporter.results.missingpage=Missing target page name. Please {0} and correct it.
+xe.officeimporter.results.result=result
+xe.officeimporter.results.success=Conversion succeeded. You can view the {0}, or you can {1} to convert another document.
+xe.officeimporter.openoffice.serverpath=Server path
+xe.officeimporter.openoffice.serverprofile=Server profile
+xe.officeimporter.openoffice.configuration=You can override *{0}* and *{1}* variables through *WEB-INF/xwiki.properties* file.
+xe.officeimporter.openoffice.serverstate=Server state
+xe.officeimporter.openoffice.actions=Actions
+xe.officeimporter.openoffice.actions.start=Start
+xe.officeimporter.openoffice.actions.stop=Stop
+xe.officeimporter.openoffice.actions.restart=Restart
+xe.officeimporter.openoffice.update=Update
+
+# Panels application
+xe.panels.classedit.youare=You are editing
+xe.panels.classedit.chooseproperty=Choose a property to edit or add a property to the class.
+xe.panels.classedit.editother=Edit another class
+xe.panels.classedit.unsavedchanges=(unsaved changes will be lost)
+xe.panels.switchclass=Switch class
+xe.panels.create.panel=Create new panel:
+xe.panels.create.title=Panel Title
+xe.panels.rights.welcomeglobal=Welcome to the global rights editor.
+xe.panels.rights.space=Rights applied to a space replace rights applied to the whole wiki.
+xe.panels.rights.warning=Warning:
+xe.panels.rights.noauthentication=Without any authentication forcing and any rights specified a Wiki is public for viewing and editing by default.
+xe.panels.document.information=XWiki document information
+xe.panels.last.members=Last Members
+xe.panels.members.name=Name
+xe.panels.members.photo=Photo
+xe.panels.members.viewall=View All
+xe.panels.modifications.my=My Recent Modifications
+xe.panels.navigation=Navigation
+xe.panels.new.page=New Page\*
+xe.panels.new.space=New Space
+xe.panels.new.name=Name
+xe.panels.new.pageinfo=*New pages are created in current space
+xe.panels.orphaned=Orphaned Pages
+xe.panels.wizard.savenew=Save the new layout
+xe.panels.wizard.revert=Revert
+xe.panels.wizard.homepage=Go to Panels home page
+xe.panels.edit=(Edit this panel)
+xe.panels.quicklinks=Quick Links
+xe.panels.quicklinks.dashboard=Wiki Dashboard
+xe.panels.quicklinks.index=Document Index
+xe.panels.quicklinks.blog=Blog
+xe.panels.quicklinks.sandbox=Sandbox
+xe.panels.rights.welcome=Welcome to the rights editor.
+xe.panels.rights.explanation=Rights applied to a document replace rights applied to a space and rights applied to the whole wiki.
+xe.panels.rights.help=Rights editor help
+xe.panels.rights.users=Users
+xe.panels.rights.usersexplanation=This field should contain the wikiname of each user you want to apply the rights to. For example <em>XWiki.JohnDoe</em>. <em>XWiki.XWikiGuest</em> should be used for unidentified users.
+xe.panels.rights.groups=Groups
+xe.panels.rights.groupsexplanation=This field should contain the wikiname of each group you want to apply the rights to. <em>XWiki.XWikiAllGroup</em> represents the group of all logged-in users with an account on your Wiki.
+xe.panels.rights.groupsvirtualexplanation=<em>xwiki:XWiki.XWikiAllGroup</em> represents the group of all logged-in users using a global account.
+xe.panels.rights.accesslevels=Access levels
+xe.panels.rights.accesslevelsexplanation=This field should contain a list of access levels that you want to apply to the users and groups specified. Available access levels are: admin, programming, register, edit, view, comment. To protect your wiki in view and edit mode use "view, edit". To protect adding comments use "comment".
+xe.panels.rights.allowdeny=Allow/Deny
+xe.panels.rights.allowdenyexplanation=This field should contain <em>Allow</em> to specify that this is an allow right, and <em>Deny</em> to specify a deny right. An <em>allow</em> right means: "this wiki, space or document is *only* visible or editable to the users or groups specified.
+xe.panels.rights.openwiki=To open a Wiki for editing by the public:
+xe.panels.rights.opengroups=Groups: XWiki.XWikiAllGroup, xwiki:XWiki.XWikiAllGroup
+xe.panels.rights.openusers=Users: XWiki.XWikiGuest
+xe.panels.rights.openaccess=Access Levels: "view, edit" for a public Wiki for viewing and editing.
+xe.panels.rights.openallow=Allow/Deny: Allow
+xe.panels.rights.protectedwiki=To protect a Wiki or Space by allowing only logged-in users using an account created on your Wiki use:
+xe.panels.rights.protectedgroups=Groups: XWiki.XWikiAllGroup
+xe.panels.rights.protectedusers=Users:
+xe.panels.rights.protectedaccess=Access Levels: "edit" for a private wiki for editing, "view, edit" for a private Wiki for viewing and editing.
+xe.panels.rights.protectedallow=Allow/Deny: Allow
+xe.panels.rights.bannedgroup=To protect a Wiki or Space by disallowing banned users to edit documents use:
+xe.panels.rights.banedgroups=Groups: XWiki.XWikiBannedGroup
+xe.panels.rights.bannedusers=Users:
+xe.panels.rights.bannedaccess=Access Levels: "edit"
+xe.panels.rights.banneddeny=Allow/Deny: Deny
+xe.panels.rights.tips=Rights editor tips
+xe.panels.rights.publicwiki=Public wiki
+xe.panels.rights.authenticate=Authenticate on view/edit
+xe.panels.rights.banned=Banned users
+xe.panels.shortcuts=Shortcuts
+xe.panels.spaces=Spaces
+xe.panels.syntax.help=XWiki Syntax Help
+xe.panels=Panels
+xe.panels.create=Create new panels
+xe.panels.viewer=Viewer panels
+xe.panels.editor=Editor panels
+xe.panels.customize=You can customize the side column(s) using the
+xe.panels.welcome.xwiki=Welcome to this XWiki!
+
+# Scheduler application
+xe.scheduler.jobscheduled=Job ~~{0}~~ *scheduled*. Next fire time :
+xe.scheduler.paused=paused
+xe.scheduler.resumed=*resumed*. Next fire time :
+xe.scheduler.unscheduled=unscheduled
+xe.scheduler=Job Scheduler
+xe.scheduler.welcome=Welcome to the Job scheduler. This application allows you to create administration scripts that can be triggered periodically.
+xe.scheduler.jobs.list=List of existing jobs
+xe.scheduler.jobs.actions=Actions
+xe.scheduler.jobs.next=Next fire time
+xe.scheduler.jobs.status=Job Status
+xe.scheduler.jobs.name=Job Name
+xe.scheduler.jobs.infos=Infos
+xe.scheduler.job=Job
+xe.scheduler.jobs.create=Create a new job
+xe.scheduler.jobs.explaincreate=Enter here the name of the page that will hold your job. The job will be created in the current Scheduler space.
+xe.scheduler.jobs.warning=Job creation is reserved for programmers. It seems you do not have programming access right allowed on the Scheduler space.
+xe.scheduler.jobs.add=Add
+xe.scheduler.jobs.pagename=Job page name
+xe.scheduler.job.name=Job name :
+xe.scheduler.job.description=Job description :
+xe.scheduler.job.expression=Job cron expression :
+xe.scheduler.job.script=Job script :
+xe.scheduler.job.scriptexplanation=The script is the code that will be executed when the job will be triggered by the scheduler. It should be written in the groovy language. XWiki api is available through the *xwiki* et *context* pre-defined variables.
+xe.scheduler.job.backtolist=Back to the job list
+xe.scheduler.job.object=This sheet must be applied to a document that holds a scheduler job object.
+
+# Statistics application
+xe.statistics.activity=Activity Statistics
+xe.statistics.edits=Edits
+xe.statistics.views=Views
+xe.statistics.current.week=Current week activity
+xe.statistics.current.week.caps=Current Week Activity
+xe.statistics.current.month=Current month activity
+xe.statistics.current.month.caps=Current Month Activity
+xe.statistics.current.year=Current year activity
+xe.statistics.current.year.caps=Current Year Activity
+xe.statistics.alltime=All time activity
+xe.statistics.alltime.caps=All Time Activity
+xe.statistics.bestreferrers=Best Referrers
+xe.statistics.document=Document Statistics
+xe.statistics.contributors.leastactive=Least Active Contributors
+xe.statistics.homepage=statistics home page
+xe.statistics.disabled=The statistics module is disabled by default for improved performances. For more details, see {0}
+xe.statistics.notrecorded=No statistics recorded
+xe.statistics.referrer=Referrer
+xe.statistics.sources=Sources
+xe.statistics.user=User
+xe.statistics.changes=Changes
+xe.statistics.space=Space
+xe.statistics.hits=Hits
+xe.statistics.space=Space
+xe.statistics.page=Page
+xe.statistics.contributors.mostactive=Most Active Contributors
+xe.statistics.pages.mostedited=Most Edited Pages
+xe.statistics.spaces.mostedited=Most Edited Spaces
+xe.statistics.pages.mostreferred=Most Referred Pages
+xe.statistics.pages.mostviewed=Most Viewed Pages
+xe.statistics.spaces.mostviewed=Most Viewed Spaces
+xe.statistics.referrerstats=Referrer Statistics
+xe.statistics.visit=Visit Statistics
+xe.statistics=Statistics
+xe.statistics.more=For more statistics, please give a look at:
+xe.statistics.module.disabled=The statistics module is disabled by default for improved performances.
+xe.statistics.to=to
+xe.statistics.module.settingvalue=It can be globally activated by setting the value of
+xe.statistics.inthe=in the
+xe.statistics.moredetails=configuration file. For more details, see
+xe.statistics.module.activating=Activating the statistics module makes the following information available to you:
+xe.statistics.module.muchmore=and much more!
+
+# Webdav application
+xe.webdav.initialize.activex=Could not initialize a required ActiveX object.
+xe.webdav.initialize.error=Error while initializing the share point editor.
+xe.webdav.install.foxwiki=A Firefox extension is required to perform this action, install it?
+xe.webdav.error=Ooops! Something went wrong... Please try again.
+xe.webdav.sorry=Sorry, to use this feature you need either Firefox or Internet Explorer.
+xe.webdav.info=This is a hosting page for webdav related functions.
+
+# XWiki Enterprise Wiki
+xe.index.documents=Documents on this Wiki
+xe.index=Index
+xe.index.tree=Tree
+xe.index.orphaned=Orphaned Pages
+xe.index.attachments=Attachments
+
+xe.space.index=Space Index
+xe.space.index.description=This page lists all your wiki's spaces
+
+xe.attachments.all.filename=Filename
+xe.attachments.all.page=Page
+xe.attachments.all.space=Space
+xe.attachments.all.date=Date
+xe.attachments.all.author=Author
+xe.attachments.all.type=Type
+
+xe.document.copy=Copy a document
+xe.document.copying=Copying document
+xe.document.copy.source=Source Document:
+xe.document.copy.language=Language:
+xe.document.copy.target=Target Doc:
+xe.document.copy.do=Copy
+
+xe.create.page=New page
+xe.create.space.name=Space homepage name
+
+xe.xwiki.administration=Administration application
+xe.xwiki.administration.install=The XWiki space contains documents used by XWiki for its own use. You can administer your wiki through the {0}.
+
+# Search
+xe.search.query=Query
+xe.search.in.space=in space
+xe.search.in.wikis=in wikis
+xe.search.results.one=One result:
+xe.search.results=Results
+xe.search.of=of
+xe.search.page.previous=previous page
+xe.search.page.next=next page
+xe.search.plugin.notfound=Lucene plugin not found. Make sure it's defined in your xwiki.cfg file.
+xe.search.rebuild.started=Started index rebuild. This will take some time depending on the number of pages/attachments.
+xe.search.rebuild.rights=You must have administrator rights to rebuild the index.
+xe.search.rebuild.inprogress=Another rebuild is in progress.
+xe.search.rebuild.failed=Index rebuild failed.
+xe.search.rebuild.currently=Lucene is currently building its index, {0} documents in queue.
+xe.search.index.uptodate=Lucene index is up to date.
+xe.search.index.rebuild=Rebuild the Lucene index
+xe.search.default.engine=default search engine
+xe.search.lucene.experimental=This is the new experimental Lucene search engine. You can still use the XWiki {0}.
+xe.search.plugin.notenabled=The Lucene plugin is not enabled. You can use the XWiki {0}.
+xe.search.go=Search
+xe.search.lucene=Lucene Search
+xe.search.lucene.try=You can also try the new experimental {0}. It adds scoring, searching into attachments and search paging. Please let us know what you think about it.
+xe.search.rss=RSS feed for search on {0}
+
+# RSS
+xe.rss.feeds=RSS Feeds
+xe.rss.feeds.description=There are currently 4 types of RSS feeds available on this wiki. You can subscribe to each of them by clicking on their name or on the icon next to them.
+xe.rss.blog=you wiki's blog
+xe.rss.search=search page
+xe.rss.tags=page of the tag of your choice
+xe.rss.pages.modified=Modified Pages RSS Feed
+xe.rss.global=Global RSS feed:
+xe.rss.global.description=this feed displays every page modification and creation on your wiki.
+xe.rss.blog=Blog RSS feed:
+xe.rss.blog.description=this feed displays blog feeds from this wiki's {0}.
+xe.rss.blog.feed=Blog RSS Feed
+xe.rss.search.description=It is possible to subscribe to a search on a specific query term. To do this, got to the {0}, run a search on a keyword and then click on the RSS icon.
+xe.rss.tags.description=It is possible to subscribe to a feed for a specific tag or for all existing tags. To do this, got to the {0} and click on the RSS feed icon you wish to use.
+xe.rss.tags.feed=Tags RSS Feed
+xe.rss.tags=Tags RSS feeds:
+xe.rss.search=Search RSS feeds:
+xe.rss.feed.description=RSS feed for document changes
+xe.rss.icon=rss icon
+xe.rss.version=Version
+xe.rss.editedby=edited by
+xe.rss.on=on
+
+# Monitor
+xe.monitor.url=URL:
+xe.monitor.startdate=StartDate:
+xe.monitor.state=State:
+xe.monitor.alive=Alive:
+xe.monitor.interrupt=Interrupting
+xe.monitor.consolidateddata=Consolidated Data
+xe.monitor.duration=Duration:
+xe.monitor.requests=Requests:
+xe.monitor.average=Average:
+xe.monitor.duration.small=duration:
+xe.monitor.calls=Calls:
+xe.monitor.average=Average:
+xe.monitor.ms=ms
+xe.monitor.requests.active=Active requests
+xe.monitor.requests.currentlyrunning=Currently running requests. There is always at least the request for this page.
+xe.monitor.requests.size=Active requests size:
+xe.monitor.requests.page=Page:
+xe.monitor.thread=Thread:
+xe.monitor.requests.unfinished=Latest unfinished requests
+xe.monitor.requests.unfinished.description=These are requests that didn't reach "endRequest", but where cleaned-up by a reuse of threads. Only 32 requests max are kept in memory.
+xe.monitor.requests.active.size=Active requests size:
+xe.monitor.requests.latest=Latest requests
+xe.monitor.requests.latest.description=Latest requests that finished properly. Only {0} requests max are kept in memory.
+xe.monitor.enddate=EndDate:
+xe.monitor.requests.number=Number of requests displayed:
+xe.monitor.disabled=The Monitor plugin is disabled. Please enable it by setting <tt>xwiki.monitor=1</tt> in your <tt>xwiki.cfg</tt> configuration file.
+
+# Results
+xe.results.page=Page
+xe.results.space=Space
+xe.results.wiki=Wiki
+xe.results.date=Date
+xe.results.author=Last Author
+xe.results.score=Score
+xe.results.actions=Actions
+xe.results.newcomment=- 1 new comment
+xe.results.guest=Guest
+xe.results.copy=Copy
+xe.results.delete=Delete
+xe.results.rename=Rename
+xe.results.rights=Rights
+
+#
+# XWiki Classes
+#
+
+# Blog.BlogClass (blog application)
+Blog.BlogClass_title=Blog title
+Blog.BlogClass_description=Description
+Blog.BlogClass_displayType=Index display
+Blog.BlogClass_itemsPerPage=Items per page (only in the Paginated display mode)
+Blog.BlogClass_blogType=Blog type
+Blog.BlogClass_blogType_local=Space blog (aggregates posts from its space only)
+Blog.BlogClass_blogType_global=Global blog (aggregates posts from the entire wiki)
+Blog.BlogPostClass_displayType_paginated=Paginated
+Blog.BlogPostClass_displayType_weekly=Group posts weekly
+Blog.BlogPostClass_displayType_monthly=Group posts monthly
+Blog.BlogPostClass_displayType_all=Show all posts
+Blog.BlogPostClass_title=Title
+Blog.BlogPostClass_content=Content
+Blog.BlogPostClass_extract=Extract
+Blog.BlogPostClass_category=Category
+Blog.BlogPostClass_hidden=Is hidden
+Blog.BlogPostClass_published=Is published
+Blog.BlogPostClass_publishDate=Publish date
+Blog.CategoryClass_name=Name
+Blog.CategoryClass_description=Description
+
+# Panels.PanelClass (panel application)
+Panels.PanelClass_name=Name
+Panels.PanelClass_type=Panel type
+Panels.PanelClass_description=Description
+Panels.PanelClass_content=Content
+Panels.PanelClass_category=Category
+
+# XWiki.AggregatorURLClass (watch application)
+XWiki.AggregatorURLClass_name=Name
+XWiki.AggregatorURLClass_url=URL
+XWiki.AggregatorURLClass_imgurl=Image URL
+XWiki.AggregatorURLClass_date=date
+XWiki.AggregatorURLClass_nb=nb
+
+# XWiki.FeedEntryClass (watch application)
+XWiki.FeedEntryClass_title=Title
+XWiki.FeedEntryClass_author=Author
+XWiki.FeedEntryClass_feedurl=Feed URL
+XWiki.FeedEntryClass_feedname=Feed Name
+XWiki.FeedEntryClass_url=URL
+XWiki.FeedEntryClass_category=Category
+XWiki.FeedEntryClass_content=Content
+XWiki.FeedEntryClass_fullContent=Full Content
+XWiki.FeedEntryClass_xml=XML
+XWiki.FeedEntryClass_date=Date
+XWiki.FeedEntryClass_flag=Flag
+XWiki.FeedEntryClass_read=Read
+XWiki.FeedEntryClass_tags=Tags
+
+# XWiki.JavaScriptExtension (skinx plugin)
+XWiki.JavaScriptExtension_name=Name
+XWiki.JavaScriptExtension_code=Code
+XWiki.JavaScriptExtension_use=Use this extension
+XWiki.JavaScriptExtension_parse=Parse content
+XWiki.JavaScriptExtension_cache=Caching policy
+
+# XWiki.StyleSheetExtension (skinx plugin)
+XWiki.StyleSheetExtension_name=Name
+XWiki.StyleSheetExtension_code=Code
+XWiki.StyleSheetExtension_use=Use this extension
+XWiki.StyleSheetExtension_parse=Parse content
+XWiki.StyleSheetExtension_cache=Caching policy
+
+# XWiki.Mail (mailsender plugin)
+XWiki.Mail_subject=Subject
+XWiki.Mail_language=Language
+XWiki.Mail_text=Text
+XWiki.Mail_html=HTML
+
+# XWiki.ResetPasswordRequestClass (administration application)
+XWiki.ResetPasswordRequestClass_verification=Request verification string
+
+# XWiki.SchedulerJobClass (scheduler plugin)
+XWiki.SchedulerJobClass_jobName=Job Name
+XWiki.SchedulerJobClass_jobClass=Job Class
+XWiki.SchedulerJobClass_status=Status
+XWiki.SchedulerJobClass_cron=Cron Expression
+XWiki.SchedulerJobClass_script=Job Script
+XWiki.SchedulerJobClass_jobDescription=Job Description
+
+# XWiki.TagClass (core)
+XWiki.TagClass_tags=Tags
+
+# XWiki.WatchListClass (watchlist plugin)
+XWiki.WatchListClass_interval=Email notifications interval
+XWiki.WatchListClass_spaces=Space list, comma separated
+XWiki.WatchListClass_documents=Document list, comma separated
+XWiki.WatchListClass_query=Query (HQL)
+
+# XWiki.XWikiComments (core)
+XWiki.XWikiComments_author=Author
+XWiki.XWikiComments_highlight=Highlighted Text
+XWiki.XWikiComments_date=Date
+XWiki.XWikiComments_comment=Comment
+XWiki.XWikiComments_replyto=Reply To
+
+# XWiki.XWikiGlobalRights (core)
+XWiki.XWikiGlobalRights_allow=Allow/Deny
+XWiki.XWikiGlobalRights_groups=Groups
+XWiki.XWikiGlobalRights_levels=Levels
+XWiki.XWikiGlobalRights_users=Users
+
+# XWiki.XWikiGroups (core)
+XWiki.XWikiGroups_member=Member
+
+# XWiki.XWikiPreferences (core)
+XWiki.XWikiPreferences_skin=Skin
+XWiki.XWikiPreferences_webbgcolor=Space Background Color
+XWiki.XWikiPreferences_authenticate_view=Authenticated View
+XWiki.XWikiPreferences_webcopyright=Space Copyright
+XWiki.XWikiPreferences_plugins=Plugins
+XWiki.XWikiPreferences_authenticate_edit=Authenticate On Edit
+XWiki.XWikiPreferences_menu=Menu
+XWiki.XWikiPreferences_meta=HTTP Meta Info
+XWiki.XWikiPreferences_title=Title
+XWiki.XWikiPreferences_version=Version
+XWiki.XWikiPreferences_smtp_server=SMTP Server
+XWiki.XWikiPreferences_admin_email=Admin email
+XWiki.XWikiPreferences_validation_email_content=Validation email Content
+XWiki.XWikiPreferences_confirmation_email_content=Confirmation email Content
+XWiki.XWikiPreferences_stylesheet=Stylesheet
+XWiki.XWikiPreferences_stylesheets=Stylesheets
+XWiki.XWikiPreferences_multilingual=Multilingual
+XWiki.XWikiPreferences_default_language=Default Language
+XWiki.XWikiPreferences_editor=Default Editor
+XWiki.XWikiPreferences_editbox_width=Editbox Width
+XWiki.XWikiPreferences_use_email_verification=Use email Verification
+XWiki.XWikiPreferences_editbox_height=Editbox Height
+XWiki.XWikiPreferences_ad_clientid=Advertisement Client ID
+XWiki.XWikiPreferences_backlinks=Backlinks
+XWiki.XWikiPreferences_macros_languages=Macros Languages
+XWiki.XWikiPreferences_macros_velocity=Macros for Velocity
+XWiki.XWikiPreferences_macros_groovy=Macros for Groovy
+XWiki.XWikiPreferences_macros_wiki2=Macros for new wiki Parser
+XWiki.XWikiPreferences_macros_mapping=Macros Mapping
+XWiki.XWikiPreferences_auth_active_check=Authentication Active Check
+XWiki.XWikiPreferences_macros_wiki=Macros for the wiki Parser
+XWiki.XWikiPreferences_notification_pages=Notification Pages
+XWiki.XWikiPreferences_invitation_email_content=Invitation email content
+XWiki.XWikiPreferences_registration_anonymous=Anonymous
+XWiki.XWikiPreferences_registration_registered=Registered
+XWiki.XWikiPreferences_edit_anonymous=Anonymous
+XWiki.XWikiPreferences_edit_registered=Registered
+XWiki.XWikiPreferences_comment_anonymous=Anonymous
+XWiki.XWikiPreferences_comment_registered=Registered
+XWiki.XWikiPreferences_renderXWikiVelocityRenderer=Render velocity code
+XWiki.XWikiPreferences_renderXWikiGroovyRenderer=Render Groovy code
+XWiki.XWikiPreferences_renderXWikiRadeoxRenderer=Render Wiki syntax
+XWiki.XWikiPreferences_leftPanels=Panels displayed on the left
+XWiki.XWikiPreferences_rightPanels=Panels displayed on the right
+XWiki.XWikiPreferences_showLeftPanels=Display the left panel column
+XWiki.XWikiPreferences_showRightPanels=Display the right panel column
+XWiki.XWikiPreferences_pageWidth=Preferred page width
+XWiki.XWikiPreferences_languages=Supported languages
+XWiki.XWikiPreferences_convertmail=convert email type
+XWiki.XWikiPreferences_tags=Activate the tagging
+XWiki.XWikiPreferences_parent=Parent space
+XWiki.XWikiPreferences_documentBundles=Internationalization Document Bundles
+XWiki.XWikiPreferences_upload_maxsize=Maximum Upload Size
+
+# XWiki.XWikiRights (core)
+XWiki.XWikiRights_allow=Allow/Deny
+XWiki.XWikiRights_groups=Groups
+XWiki.XWikiRights_levels=Levels
+XWiki.XWikiRights_users=Users
+
+# XWiki.XWikiUsers (core)
+XWiki.XWikiUsers_active=Active
+XWiki.XWikiUsers_password=Password
+XWiki.XWikiUsers_email=email
+XWiki.XWikiUsers_comment=Comment
+XWiki.XWikiUsers_first_name=First Name
+XWiki.XWikiUsers_last_name=Last Name
+XWiki.XWikiUsers_fullname=Full Name
+XWiki.XWikiUsers_validkey=Validation Key
+XWiki.XWikiUsers_default_language=Default Language
+XWiki.XWikiUsers_company=Company
+XWiki.XWikiUsers_blog=Blog
+XWiki.XWikiUsers_blogfeed=Blog Feed
+XWiki.XWikiUsers_imtype=IM Type
+XWiki.XWikiUsers_imaccount=IM Account
+XWiki.XWikiUsers_city=City
+XWiki.XWikiUsers_country=Country
+XWiki.XWikiUsers_editor=Default Editor
+XWiki.XWikiUsers_skin=skin
+XWiki.XWikiUsers_pageWidth=Preferred page width
+XWiki.XWikiUsers_avatar=Avatar
+XWiki.XWikiUsers_usertype=User type
+
+# XWiki.XWikiSkins (core)
+XWiki.XWikiSkins_name=Name
+XWiki.XWikiSkins_style.css=Style
+XWiki.XWikiSkins_header.vm=Header
+XWiki.XWikiSkins_footer.vm=Footer
+XWiki.XWikiSkins_view.vm=View
+XWiki.XWikiSkins_viewheader.vm=View Header
+XWiki.XWikiSkins_pagemenu.vm=Page Menu
+XWiki.XWikiSkins_comments2.vm=Comments
+XWiki.XWikiSkins_edit.vm=Edit
+XWiki.XWikiSkins_baseskin=Base Skin
+XWiki.XWikiSkins_logo=Logo
