@@ -16,7 +16,7 @@
 	<target name="encode-properties" description="Replace non-ASCII characters with Unicode escapes">
 		<java classname="lv.ante.vuordneica.util.TransformPropertyFile">
 			<arg value="src/main/resources/ApplicationResources_ltg.txt"/>
-			<arg value="src/main/resources/ApplicationResources_lv.properties"/>
+			<arg value="src/main/resources/ApplicationResources_ltg.properties"/>
 			<classpath>
 				<pathelement path="target/classes" />
 			</classpath>
@@ -28,7 +28,7 @@
 		<delete dir="target/xwiki-core" failonerror="false" />
 		<mkdir dir="target/xwiki-core" />
 		<unzip src="${basedir}/xwiki-core-1.8.jar.bak" dest="target/xwiki-core" />
-		<copy file="src/main/resources/ApplicationResources_lv.properties" todir="target/xwiki-core"/>
+		<copy file="src/main/resources/ApplicationResources_ltg.properties" tofile="target/xwiki-core/ApplicationResources_lv.properties"/>
 		<delete file="xwiki-core-1.8.jar"/>
 		<zip destfile="xwiki-core-1.8.jar">
 			<fileset dir="target/xwiki-core"/>
