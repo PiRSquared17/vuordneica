@@ -225,11 +225,11 @@ documentBundles=Internacionalizacejis Dokumentu Teisti
 auth_active_check=Paraudzeit aktivūs laukus deļ lītuotuoju autentifikacejis
 advanced=Izvārsts
 errornotdefine=Klaida nanūstateita īkš XWikiException !
-# propertynamenotcorrect=Property names must follow these naming rules : \
-#  <br/>Names can contain letters, numbers, and the following characters : "., -, _, :" \
-#  <br/>Names must not start with a number or punctuation character. \
-#  <br/>Names must not start with the letters xml (or XML, or Xml, etc). \
-#  <br/>Names cannot contain spaces.
+propertynamenotcorrect=Soveibu vuordus nūsoka taidys pīzemis : \
+  <br/>Vuordi var saturēt lelus i mozus literus, skaitļus, i taidus simbolus: "., -, _, :" \
+  <br/>Vuordi navar suoktīs ar skaitli voi pīturzeimi. \
+  <br/>Vuordi navar suoktīs ar "xml" (ci "XML", "Xml", i.t.t.). \
+  <br/>Vuordūs navar byut tukšumi
 
 backtoedit=Back To Edit
 browsernoncompatible=Browser is non compatible !
@@ -1071,7 +1071,7 @@ xe.tag.delete.failure=Deletion of tag {0} failed.
 
 # Page footer
 docextra.comments=Komentari
-docextra.children=Children
+docextra.children=Bārni
 docextra.attachments=Dalikumi
 docextra.history=Viesture
 docextra.information=Dazynuošona
@@ -1080,7 +1080,7 @@ docextra.parent=Dzymdynuotuojs:
 docextra.backlinks={0} nūruodis iz itīni:
 docextra.creation=Radeits:
 docextra.createdby=kas: {0}, kod: {1}
-docextra.includedpages=Included pages
+docextra.includedpages=Īliktuos lopys
 core.tagedit.title=Tagi:
 tags.save=Globuot
 tags.save.success=Tagi laimeigai izglobuoti
