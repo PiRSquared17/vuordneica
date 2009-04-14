@@ -231,51 +231,51 @@ propertynamenotcorrect=Soveibu vuordus nūsoka taidys pīzemis : \
   <br/>Vuordi navar suoktīs ar "xml" (ci "XML", "Xml", i.t.t.). \
   <br/>Vuordūs navar byut tukšumi
 
-backtoedit=Back To Edit
-browsernoncompatible=Browser is non compatible !
-wysiwygeditor=WYSIWYG Editor
-wikieditor=WIKI Editor
-macro=Macro
-choosemacro=Choose a macro :
+backtoedit=Atsagrīzt pi redigēšonys
+browsernoncompatible=Puorsavieriejs nadereigs itymai vītai!
+wysiwygeditor=Tīšskota redaktors
+wikieditor=WIKI redaktors
+macro=Makro
+choosemacro=Izavēlēt makro:
 
-resetversions=Reset Versions
-confirmresetversions=This action is not reversible. Are you sure you want to reset versions for this document?
-confirmresetversions2=Please confirm you want to reset versions for this document.
-resetversionsdone=The versions have been reset for this document.
+resetversions=Atstateit versejis
+confirmresetversions=Itei darbeiba naatsagrīžoma. Voi gribit tuoļuot verseju atstateišonu tymā dokumentā?
+confirmresetversions2=Lyudzu apstyprynuot, ka gribīs atstateit versejis itymā dokumentā.
+resetversionsdone=Versejis itymā dokumentā irā atstateitys.
 
-createdon=on
-lastmodifiedby=last modified by
-lastmodifiedon=on
-at=at
+createdon=Data
+lastmodifiedby=Pādējī lobuojumi
+lastmodifiedon=Data
+at=kad
 editwiki=Wiki
-editvisual=WYSIWYG
-editform=Form
-chooseeditor=Choose editor:
-show=Show
-showcode=Wiki code
+editvisual=Tīšskots
+editform=Forma
+chooseeditor=Izavēlēt redaktoru:
+show=Ruodeit
+showcode=Viki kods
 showxml=XML
-watch=Watch
-noattachments=No attachments for this document
-downloadthisattachment=Download this attachment
-viewattachmenthistory=View attachment history
-register=Register
-doc=Documentation
-attributes=Attributes
-showattributes=Show page attributes
-rememberme=This is a private computer, please remember me
-dontrememberme=This is a public/shared computer, do not remember me
-editincludepagemsgone=$pages.size() included document
-editincludepagemsgmore=$pages.size() included documents
-youareeditingtranslation=You are editing the following translation
-youareeditingoriginal=You are editing the original document
-originallanguage=The original language of the document is
-translatedocin=Translate this document in
-othertranslations=Other translations
-existingtranslations=Existing translations
-proptype=Type
-removethiscomment=delete
+watch=Sorguot
+noattachments=Itymā dokumentā navā dalikumu
+downloadthisattachment=Nūkraut itū dalikumu
+viewattachmenthistory=Skateit dalikumu viesturi
+register=Registrētīs
+doc=Dokumentaceja
+attributes=Atributi
+showattributes=Ruodeit lopys atributus
+rememberme=Tys irā personeigs dators, lyudzu atguoduot manu īsaloguošonu
+dontrememberme=Tys irā publisks dators, lyudzu naatguoduot īsaloguošonu
+editincludepagemsgone=$pages.size() īlikts dokuments
+editincludepagemsgmore=$pages.size() īlikti dokumenti
+youareeditingtranslation=Jyus redigējot itū puorvārsumu
+youareeditingoriginal=Jyus redigējot originaluo dokumentu
+originallanguage=Dokumenta originaluo volūda irā
+translatedocin=Puorvērst itū dokumentu iz
+othertranslations=Cyti puorvārsumi
+existingtranslations=Niulejī puorvārsumi
+proptype=Tips
+removethiscomment=iztreit
 confirmcommentremove=Are you sure you want to remove this comment?
-usefullinks=Useful links
+usefullinks=Dereigys saitis
 
 bold=Bold
 boldtext=Text in Bold
@@ -583,32 +583,32 @@ web.paging.lastPage=Last &raquo;
 tempdirnotset=Temporary directory not set. Please follow the instructions on <a href="http://www.xwiki.org/xwiki/bin/view/FAQ/WhyAmIGettingANullPointerExceptionWhenUploadingFiles">xwiki.org</a> on how to fix this.
 
 # comments for history
-core.comment=Comment
-core.comment.prompt=Enter a comment describing your changes
-core.comment.addComment=Added comment
-core.comment.addObject=Added object
-core.comment.updateObject=Updated object
-core.comment.deleteObject=Deleted object
-core.comment.addProperty=Added property
-core.comment.updateProperty=Updated property
-core.comment.updatePropertyName=Updated property name
-core.comment.addClassProperty=Added class property
-core.comment.updateClassProperty=Updated class property
-core.comment.updateClassPropertyName=Updated class property name
-core.comment.createdUser=Created user
-core.comment.addedUserToGroup=Added user to group
-core.comment.rollback=Rollback to version {0}
-core.comment.updateContent=Update Content
-core.comment.uploadAttachmentComment=Upload new attachment <a href="{1}">{0}</a>
-core.comment.uploadImageComment=Upload new image <a href="{1}">{0}</a>
-core.comment.deleteAttachmentComment=Deletion of attachment {0}
-core.comment.deleteImageComment=Deletion of image {0}
-core.comment.renameLink=Renamed links to {0} following the rename of that page
-core.comment.createdTemplate=Created {0} Template
+core.comment=Koments
+core.comment.prompt=Īroksteit komentu, kurs aproksta Jyusu lobuojumu
+core.comment.addComment=Daliktais koments
+core.comment.addObject=Daliktais objekts
+core.comment.updateObject=Lobuotais objekts
+core.comment.deleteObject=Iztreitais objekts
+core.comment.addProperty=Daliktuo soveiba
+core.comment.updateProperty=Lobuotuo soveiba
+core.comment.updatePropertyName=Lobuotuos soveibys vuords
+core.comment.addClassProperty=Daliktuo klases soveiba
+core.comment.updateClassProperty=Lobuotuo klases soveiba
+core.comment.updateClassPropertyName=Lobuotais klases soveibys vuords
+core.comment.createdUser=Radeits lītuotuojs
+core.comment.addedUserToGroup=Lītuotuojs dalikts da grupys
+core.comment.rollback=Atsagrīšona pi versejis {0}
+core.comment.updateContent=Lobuot turīni
+core.comment.uploadAttachmentComment=Kraut viersā jaunu dalikumu <a href="{1}">{0}</a>
+core.comment.uploadImageComment=Kraut viersā jaunu obrazeņu <a href="{1}">{0}</a>
+core.comment.deleteAttachmentComment=Dalikuma {0} iztreišona
+core.comment.deleteImageComment=Obrazeņa {0} iztreišona
+core.comment.renameLink=Puorsauktys saitis iz {0} piec tuos lopys puorsaukšonys
+core.comment.createdTemplate=Radeits {0} šablons
 
-core.minoredit=Is minor edit
-core.minoredit.show=Show minor edits
-core.minoredit.hide=Hide minor edits
+core.minoredit=Irā mozais lobuojums
+core.minoredit.show=Ruodeit mozūs lobuojumus
+core.minoredit.hide=Nūglobuot mozūs lobuojumus
 
 # top menu
 core.menu.documentation=Dokumentaceja
@@ -1017,57 +1017,57 @@ chwimgspacing=Boltuos molys
 chwimgcolors=Kruosys
 chwimginsert=Īstateišonys punkts
 
-tdwimgdoc=XWiki Document
-tdwimgrange=Table and Range
-tdwimgextra=Additional options
-tdwdoclegend=XWiki Document selection
-tdwdocselectlabel=Please select from the list below the document containing the data to be used for the chart.
-tdwrangelegend=Table and range selection
+tdwimgdoc=XWiki Dokuments
+tdwimgrange=Tabele i Pūsms
+tdwimgextra=Papyldomi stuļpeni
+tdwdoclegend=XWiki dokumentu izalaseišona
+tdwdocselectlabel=Lyudzu izalaseit nu saroksta dokumentu, kas saturātu datus itymai diagramai.
+tdwrangelegend=Tabeļu i pūsmu izalaseišona
 tdwextralegend=Additional options
-tdwheaderslegend=Data headers
-tdwnonamedata=You didn't enter a name for the data source. Are you sure you want to save it without a name?
-tdwrowheader=First row as header
-tdwcolumnheader=First column as header
-tdwformatlegend=Data format
-tdwignorealpha=Ignore non digits in table cells
-tdwdecimalsymbol=Use comma (,) as a decimal symbol instead of period (.)
-tdwcomma=Comma
-tdwperiod=Period
-tdwsavelegend=Data source saving
-tdwsavesource=Save data source definition in order to reuse it.
-tdwsavename=Data source name:
-tdwwaitingmsg=Please wait...
-tdwrequesterrormsg=Error requesting page.
-tdwnotablesmsg=No tables found in document <span id="tdwNoTablePageName">&nbsp;</span>. Please select another one.
-tdwslectrangemsg=Please select the data to be used. You can select a whole table, a series of columns, rows, or a rectangular region of cells.
-tdwcanceltitle=Cancel the data source creation process and return to the chart page
-tdwcancel=Cancel
-tdwbacktitle=Go to previous wizard page
-tdwback=Back
-tdwnexttilte=Go to next wizard page
-tdwnext=Next
-tdwfinishtitle=Use the defined data source in the chart and close this wizard
-tdwfinish=Finish
+tdwheaderslegend=Datu viersroksti
+tdwnonamedata=Jyus nanūsaucot datu olūtu. Voi gribit nūglobuot bez vuorda? 
+tdwrowheader=Pyrmuo aile kai viersroksts
+tdwcolumnheader=Pyrmais stulpeņš kai viersroksts
+tdwformatlegend=Datu formats
+tdwignorealpha=Ignorēt tabelis šūnuos vierteibys, kas navā skaiti. 
+tdwdecimalsymbol=Lītuot komatu (,) kai decimaluo zeimi punkta (.) vītā
+tdwcomma=Komats
+tdwperiod=Punkts
+tdwsavelegend=Datu olūta nūglobuošona 
+tdwsavesource=Nūglobuot datu olūta definiceji, kab tū vēļ reizi izlītuotu.
+tdwsavename=Datu olūta vuords:
+tdwwaitingmsg=Lyudzu gaidit...
+tdwrequesterrormsg=Klaida aizprasūt lopu.
+tdwnotablesmsg=Dokumentā <span id="tdwNoTablePageName">&nbsp;</span> naaptikom tabeļu. Izalasit, lyudzu, cytu tabeli. 
+tdwslectrangemsg=Lyudzu izalasit datus, kū lītuot. Varit izalaseit vysu tabeli, seceibu nu stuļpenim, ailem ci leidzonstyura regionu ar tabelis šūnom.
+tdwcanceltitle=Atsaukt datu olūta radeišonys procesu i atsagrīzt diagramys lopā.
+tdwcancel=Atsaukt
+tdwbacktitle=Īt iz pyrmuokū vadyna lopu
+tdwback=Atpakaļ
+tdwnexttilte=Īt iz tuoļuokū vadyna lopu
+tdwnext=Tuoļuok
+tdwfinishtitle=Lītuot definātuo datu olūtu diagramā i aizdareit itū vadynu
+tdwfinish=Pabeigys
 
 # XWikiExplorer JS Widget
-xwikiexplorer.addpage.title=New page...
-xwikiexplorer.attachments.title=Attachments
-xwikiexplorer.addattachment.title=Upload file...
+xwikiexplorer.addpage.title=Jauna lopa...
+xwikiexplorer.attachments.title=Dalikumi
+xwikiexplorer.addattachment.title=Kraut viersā failu...
 
 
 # Tag application
-xe.tag.tags=Tags
-xe.tag.notags=No document has been tagged yet. Documents can be tagged from the information section (footer) or from the Document information panel available in edit mode. For more information on tagging please refer to the <a href="http://www.xwiki.org/xwiki/bin/view/UserGuide/">User Guide</a>.
-xe.tag.tooltip={0} documents
-xe.tag.alldocs=All documents <span>Tagged with {0}</span>
-xe.tag.recentchanges=Recent changes <span>In documents tagged with {0}</span>
-xe.tag.rename=Rename
-xe.tag.rename.success=Tag {0} has been successfully renamed.
-xe.tag.rename.failure=Renaming of tag {0} to {1} failed.
-xe.tag.rename.renameto=Rename {0} to : 
-xe.tag.delete=Delete tag {0}
-xe.tag.delete.success=Tag {0} has been successfully deleted.
-xe.tag.delete.failure=Deletion of tag {0} failed.
+xe.tag.tags=Tagi
+xe.tag.notags=Dokumentu vēļ natagova. Dokumentus var nūtaguot iz informativuos sadales (zamuškā) ci nu "Document" informacejis paneļa, kas radzams "redigēt" režimā. Vairuok dazynuošonys ap taguošonu lyudzu viertīs <a href="http://www.xwiki.org/xwiki/bin/view/UserGuide/">Lītuotuoja pavuiceibu</a>.
+xe.tag.tooltip={0} dokumenti
+xe.tag.alldocs=Vysi dokumenti <span>taguoti ar {0}</span>
+xe.tag.recentchanges=Nasenuos puormaines <span>dokumentūs, kas taguoti ar {0}</span>
+xe.tag.rename=Puorsaukt
+xe.tag.rename.success=Tags {0} irā laimeigai puorsaukts.
+xe.tag.rename.failure=Taga {0} puorsaukšona par tagu {1} nasekmeiga.
+xe.tag.rename.renameto=Puorsaukt {0} par : 
+xe.tag.delete=Iztreit tagu {0}
+xe.tag.delete.success=tags {0} laimeigai iztreits.
+xe.tag.delete.failure=Taga {0} iztreišona nasekmeiga.
 
 # Page footer
 docextra.comments=Komentari
@@ -1087,36 +1087,36 @@ tags.save.success=Tagi laimeigai izglobuoti
 tags.save.error=Klaida, globuojūt tagus
 
 # Wiki and space dashboard (XWiki Enterprise wiki)
-xe.dashboard.wiki=Dashboard
-xe.dashboard.wiki.spaces=Spaces
-xe.dashboard.wiki.tagcloud=Tags
-xe.dashboard.wiki.recentchanges=Recent Changes
-xe.dashboard.space=Dashboard for space {0}
-xe.dashboard.space.recentchanges=Recent Changes for space {0}
-xe.dashboard.space.documents=Documents in space {0}
+xe.dashboard.wiki=Vierspaneļs
+xe.dashboard.wiki.spaces=Apgabali
+xe.dashboard.wiki.tagcloud=Tagi
+xe.dashboard.wiki.recentchanges=Nasenī lobuojumi
+xe.dashboard.space=Vierspaneļs apgabalam {0}
+xe.dashboard.space.recentchanges=Nasenī lobuojumi apgabalam {0}
+xe.dashboard.space.documents=Dokumenti apgabalī {0}
 
 # Spaces (XWiki Enterprise wiki)
-xe.spaces.createspace=Create a new space
-xe.spaces.createspace.defaultname=Space name
-xe.spaces.createspace.submit=Create
-xe.spaces.action.index=See space index
-xe.spaces.action.admin=See space administration
+xe.spaces.createspace=Radeit jaunu apgabali
+xe.spaces.createspace.defaultname=Apgabaļa vuords
+xe.spaces.createspace.submit=Radeit
+xe.spaces.action.index=Viertīs apgabala indeksu
+xe.spaces.action.admin=Viertīs apgabala administrēšonu
 
 # Recent Changes (XWiki Enterprise wiki)
-xe.recentchanges=Recent Changes
-xe.recentchanges.showminor=Show minor edits
-xe.recentchanges.hideminor=Hide minor edits
-xe.recentchanges.rssfeed=RSS feed
-xe.recentchanges.column.authoranddate=Author and date
-xe.recentchanges.column.changes=Changes
-xe.recentchanges.entry.new=new!
-xe.recentchanges.entry.page.seemodifications=see modifications
-xe.recentchanges.entry.page.tooltip=Version {0}. Last modification {1}.
-xe.recentchanges.entry.comment.tooltip=Posted at {0}
-xe.recentchanges.entry.comment=comment 
-xe.recentchanges.entry.comment.show=show
-xe.recentchanges.entry.comment.hide=hide
-xe.recentchanges.entry.comment.seediscussion=See discussion
+xe.recentchanges=Nasenī lobuojumi
+xe.recentchanges.showminor=Ruodeit mozūs lobuojumus
+xe.recentchanges.hideminor=Nūglobuot mozūs lobuojumus
+xe.recentchanges.rssfeed=RSS baruotova
+xe.recentchanges.column.authoranddate=Autors i data
+xe.recentchanges.column.changes=Puormaines
+xe.recentchanges.entry.new=jauns!
+xe.recentchanges.entry.page.seemodifications=viertīs puormaines
+xe.recentchanges.entry.page.tooltip=Verseja {0}. Pādējuo puormaine {1}.
+xe.recentchanges.entry.comment.tooltip=Nūsyuteits {0}
+xe.recentchanges.entry.comment=koments
+xe.recentchanges.entry.comment.show=ruodeit
+xe.recentchanges.entry.comment.hide=nūglobuot
+xe.recentchanges.entry.comment.seediscussion=Viertīs diskuseju
 
 # Administration application
 admin.globaladmin=Wiki Preferences
